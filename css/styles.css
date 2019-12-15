@@ -1,8 +1,9 @@
-h1{
+.img1{
     text-align: center;
-    color:white;
+    background:black;
+    padding-bottom: 20px;
 }
-body{
-    background-image:url("../img/pizza.jpg");
+#para1{
     color:white;
+
 }
