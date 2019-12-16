@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <link href="css/styles.css" rel="stylesheet">
-    <link href="bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <scripts src="https://code.jquery.com/jquery-3.4.1.min.js"></scripts>
-   <scripts src="scripts.js"></scripts>
+    <script src="js/jquery-3.4.1.js"></script>
+   <scripts src="js/scripts.js"></scripts>
     <title>Document</title>
     <link rel="shortcut icon" href="img/pizza.jpg">
 </head>
@@ -19,32 +19,42 @@
 </div>
   
 <div class="choosepizza">
-    <form> 
-            <input list="crusts" name="crusts" id="crust11">
-            <datalist id="crusts" placeholder="choose your crust">
-                <option value="crispy@100">Crispy</option>
-                <option value="stuffed@120">Stuffed</option>
-                <option value="gluten-free@100">Gluten-Free</option>
-            </datalist></br>
+    <img src="img/pizzaicon4.jpg" width="400px" height="400px" id="pizzalarge">
+    <form class="formlarge" > 
+            <label>Choose your crust</label>
+            <select name="crusts" id="crusts">Crusts
+                <option value="100">Crispy</option>
+                <option value="120">Stuffed</option>
+                <option value="100">Gluten-Free</option>
+            </select></br>
          
-            <input list="crusts" name="crusts" id="crust12">
-            <datalist id="crusts" placeholder="choose your crust">
-                <option value="Pepperoni@50">Pepperoni</option>
-                <option value="Mushroom@20">Mushroom</option>
-                <option value="onions@25">Onions</option>
-                <option value="Sausage@20">Sausage</option>
-                <option value="gluten-free@100">Bacon</option>
-            </datalist></br>
+            <label>Choose your topping</label>
+            <select name="toppings" id="toppings">Toppings
+                <option value="50">Pepperoni</option>
+                <option value="20">Mushroom</option>
+                <option value="25">Onions</option>
+                <option value="20">Sausage</option>
+                <option value="100">Bacon</option>
+            </select></br>
 
-            <input type="number" placeholder="Input the number of pizzas you'd like" id="crust13">
+            <label>Input the number of pizzas you'd like</label>
+            <input type="number" placeholder="Input the number of pizzas you'd like" id="pizzaquantity"></br>
 
-            <input type="button" value="Place an order">
+            <input type="button" value="Place an order" id="button1"></br>
+            <label>Total price</label>
+            <input type="number" id="totalprice">
         </form>   
 </div>
-  
+  <div class="contact">
+      CONTACT US</br>
+      0789654231</br>
+      pplace@gmail.com
+  </div>
 
-
-
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="Js/scripts.js"></script>
    
 </body>
 </html>
