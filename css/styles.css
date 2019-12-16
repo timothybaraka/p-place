@@ -10,7 +10,7 @@
     text-align: center;
     padding-top: 40px;
     padding-bottom: 50px;
-    background-image:url("../img/pizza5.jpg");
+    background:lightgray;
 }
 #paragraph2{
     scroll-padding-top: 20px;
@@ -36,11 +36,11 @@
     margin-top: 20px;
 }
 #pizzamedium{
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 60px;
 }
 #pizzasmall{
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top:100px;
 }
 

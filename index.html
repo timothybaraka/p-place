@@ -30,16 +30,59 @@
     </div>
 
     <div class="row">
-            <div class="choosepizza1">
-                <div class="col-md-4"><img src="img/pizzaicon4.jpg" width="400px" height="400px" id="pizzalarge">
-                    <form class="formlarge">
+        <div class="choosepizza1">
+            <div class="col-md-4">
+                <img src="img/pizzaicon4.jpg" width="400px" height="400px" id="pizzalarge">
+                <label>Pizza type</label>
+                <select name="type" id="type">
+                    <option value="800">Large</option>
+                </select>
+                <form class="formlarge">
+                    <label>Choose your crust</label>
+                    <select name="crusts" id="crusts">Crusts
+                        <option value="100">Crispy</option>
+                        <option value="120">Stuffed</option>
+                        <option value="100">Gluten-Free</option>
+                    </select></br>
+
+                    <label>Choose your topping</label>
+                    <select name="toppings" id="toppings">Toppings
+                        <option value="50">Pepperoni</option>
+                        <option value="20">Mushroom</option>
+                        <option value="25">Onions</option>
+                        <option value="20">Sausage</option>
+                        <option value="100">Bacon</option>
+                    </select></br>
+
+                    <label>Input the number of pizzas you'd like</label>
+                    <input type="number" placeholder="Input the number of pizzas you'd like" id="pizzaquantity"></br>
+                    <button type="submit" value="Place an order" id="button1">Place an order</button>
+
+                    <!-- <input type="button" value="Place an order" id="button1"></br> -->
+                    <label>Total price</label>
+                    <input type="number" id="totalprice">
+                    <button type="submit" value="Deliver my pizza" id="button2"></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="choosepizza2">
+                <div class="col-md-4"><img src="img/pizzaicon4.jpg" width="200px" height="200px" id="pizzamedium">
+                    <form class="formmedium">
+                        <label>Pizza type</label>
+                        <select name="type" id="type">
+                            <option value="600">Medium</option>
+                        </select>
+
                         <label>Choose your crust</label>
                         <select name="crusts" id="crusts">Crusts
                             <option value="100">Crispy</option>
                             <option value="120">Stuffed</option>
                             <option value="100">Gluten-Free</option>
                         </select></br>
-    
+
                         <label>Choose your topping</label>
                         <select name="toppings" id="toppings">Toppings
                             <option value="50">Pepperoni</option>
@@ -48,27 +91,25 @@
                             <option value="20">Sausage</option>
                             <option value="100">Bacon</option>
                         </select></br>
-    
+
                         <label>Input the number of pizzas you'd like</label>
-                        <input type="number" placeholder="Input the number of pizzas you'd like" id="pizzaquantity"></br>
-    
-                        <input type="button" value="Place an order" id="button1"></br>
+                        <input type="number" placeholder="Input the number of pizzas you'd like"
+                            id="pizzaquantity"></br>
+
+                        <input type="button" value="Place an order" onclick="totalPrice()" id="button1"></br>
                         <label>Total price</label>
                         <input type="number" id="totalprice">
                     </form>
                 </div>
             </div>
 
-
-    <div class="row">
-        <div class="choosepizza2">
-            <div class="col-md-4"><img src="img/pizzaicon4.jpg" width="200px" height="200px" id="pizzamedium">
-                <form class="formmedium">
+            <div class="choosepizza3">
+                <img src="img/pizzaicon4.jpg" width="100px" height="100px" id="pizzasmall">
+                <form class="formsmall">
                     <label>Pizza type</label>
                     <select name="type" id="type">
-                        <option value="800">Large</option>
+                        <option value="400">Small</option>
                     </select>
-                    
                     <label>Choose your crust</label>
                     <select name="crusts" id="crusts">Crusts
                         <option value="100">Crispy</option>
@@ -94,35 +135,6 @@
                 </form>
             </div>
         </div>
-
-        <div class="choosepizza3">
-            <img src="img/pizzaicon4.jpg" width="100px" height="100px" id="pizzasmall">
-            <form class="formsmall">
-                <label>Choose your crust</label>
-                <select name="crusts" id="crusts">Crusts
-                    <option value="100">Crispy</option>
-                    <option value="120">Stuffed</option>
-                    <option value="100">Gluten-Free</option>
-                </select></br>
-
-                <label>Choose your topping</label>
-                <select name="toppings" id="toppings">Toppings
-                    <option value="50">Pepperoni</option>
-                    <option value="20">Mushroom</option>
-                    <option value="25">Onions</option>
-                    <option value="20">Sausage</option>
-                    <option value="100">Bacon</option>
-                </select></br>
-
-                <label>Input the number of pizzas you'd like</label>
-                <input type="number" placeholder="Input the number of pizzas you'd like" id="pizzaquantity"></br>
-
-                <input type="button" value="Place an order" id="button1"></br>
-                <label>Total price</label>
-                <input type="number" id="totalprice">
-            </form>
-        </div>
-    </div>
     </div>
     <div class="contact">
         CONTACT US</br>

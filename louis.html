@@ -7,6 +7,7 @@ function totalPrice (){
   var selectedTopping = document.getElementById/home/mringaschool/Documents/moringa-projects/pizza-app/index.html("toppings")
   var CostOfToppings = selectedTopping.options[selectedCrust.selectedIndex].value;
   var QuantityOfPizza = document.getElementById("numberOfPizzas").value;
+  
   price = parseInt(CostOfSize) + parseInt(CostOfCrust) + parseInt(CostOfToppings)
   totalPrice = price * parseInt(QuantityOfPizza);
   document.getElementById("total").value = totalPrice;
