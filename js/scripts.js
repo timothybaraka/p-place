@@ -25,12 +25,12 @@ $(document).ready(function () {
     });
 
     $("#button22").click(function () {
-        alert("your delivery price is 200 shillings");
+        alert("Your delivery price is 200 shillings");
 
     });
 
     $("#button23").click(function () {
-        alert("your delivery price is 200 shillings");
+        alert("Your delivery price is 200 shillings");
     });
 
 
@@ -53,7 +53,7 @@ function totalPrice11() {
 };
 
 function totalprice12() {
-    var selectSize = document.getElementById("type2")
+    var selectSize = document.getElementById("type2");
     var CostSize = selectSize.options[selectSize.selectedIndex].value;
     var selectCrust = document.getElementById("crusts2")
     var CostCrust = selectCrust.options[selectCrust.selectedIndex].value;
@@ -68,11 +68,11 @@ function totalprice12() {
 };
 
 function totalprice13() {
-    var sizeSelect = document.getElementById("type3")
+    var sizeSelect = document.getElementById("type3");
     var SizeCost = sizeSelect.options[sizeSelect.selectedIndex].value;
-    var crustSelect = document.getElementById("crusts3")
+    var crustSelect = document.getElementById("crusts3");
     var CrustCost = crustSelect.options[crustSelect.selectedIndex].value;
-    var toppingSelect = document.getElementById("toppings3")
+    var toppingSelect = document.getElementById("toppings3");
     var ToppingsCost = toppingSelect.options[toppingSelect.selectedIndex].value;
     var PizzaQuantity = document.getElementById("pizzaquantity3").value;
 
