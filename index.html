@@ -33,11 +33,11 @@
         <div class="choosepizza1">
             <div class="col-md-4">
                 <img src="img/pizzaicon4.jpg" width="400px" height="400px" id="pizzalarge">
+                <form class="formlarge">
                 <label>Pizza type</label>
                 <select name="type" id="type">
                     <option value="800">Large</option>
                 </select>
-                <form class="formlarge">
                     <label>Choose your crust</label>
                     <select name="crusts" id="crusts">Crusts
                         <option value="100">Crispy</option>
@@ -93,10 +93,11 @@
 
                         <label>Input the number of pizzas you'd like</label>
                         <input type="number" placeholder="Input number of pizzas" id="pizzaquantity2"></br>
-
-                        <input type="button" value="Place an order" onclick="totalprice12()" id="button2"></br>
+    
+                        <input type="button" value="Place an order" id="button2" onclick="totalPrice12()"></br>
                         <label>Total price</label>
                         <input type="number" id="totalprice2">
+                        <button type="submit" value="Deliver my pizza" id="button22"></button>
                     </form>
                 </div>
             </div>
@@ -107,7 +108,8 @@
                     <label>Pizza type</label>
                     <select name="type" id="type3">
                         <option value="400">Small</option>
-                    </select>
+                    </select></br>
+                   
                     <label>Choose your crust</label>
                     <select name="crusts" id="crusts3">Crusts
                         <option value="100">Crispy</option>
@@ -124,12 +126,13 @@
                         <option value="100">Bacon</option>
                     </select></br>
 
-                    <label>Input the number of pizzas you'd like</label>
+                    <label>Input number of pizzas</label>
                     <input type="number" placeholder="Input number of pizzas" id="pizzaquantity3"></br>
 
-                    <input type="button" value="Place an order" onclick="totalPrice13()" id="button3"></br>
+                    <input type="button" value="Place an order" id="button3" onclick="totalPrice13()"></br>
                     <label>Total price</label>
                     <input type="number" id="totalprice3">
+                    <button type="submit" value="Deliver my pizza" id="button23"></button>
                 </form>
             </div>
         </div>

@@ -16,8 +16,19 @@ $(document).ready(function () {
         $("#pizzasmall").toggle();
         $(".formsmall").show();
     });
+
     $("#button21").click(function () {
-        alert(jnjnjbjbjbk);
+        alert("your delivery price is 200 shillings");
+        var totalPay=document.getElementById("")
+    });
+
+    $("#button2").click(function () {
+        alert("your delivery price is 200 shillings");
+
+    });
+
+    $("#button23").click(function () {
+        alert("your delivery price is 200 shillings");
     });
 
 
