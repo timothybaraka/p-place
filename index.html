@@ -56,9 +56,8 @@
 
                     <label>Input the number of pizzas you'd like</label>
                     <input type="number" placeholder="Input the number of pizzas you'd like" id="pizzaquantity"></br>
-                    <button type="submit" value="Place an order" id="button1">Place an order</button>
 
-                    <!-- <input type="button" value="Place an order" id="button1"></br> -->
+                    <input type="button" value="Place an order" id="button1" onclick="totalPrice()"></br>
                     <label>Total price</label>
                     <input type="number" id="totalprice">
                     <button type="submit" value="Deliver my pizza" id="button2"></button>
@@ -129,7 +128,7 @@
                     <label>Input the number of pizzas you'd like</label>
                     <input type="number" placeholder="Input the number of pizzas you'd like" id="pizzaquantity"></br>
 
-                    <input type="button" value="Place an order" id="button1"></br>
+                    <input type="button" value="Place an order" onclick="totalPrice()" id="button1"></br>
                     <label>Total price</label>
                     <input type="number" id="totalprice">
                 </form>
