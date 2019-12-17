@@ -19,10 +19,12 @@ $(document).ready(function () {
 
     $("#button21").click(function () {
         alert("your delivery price is 200 shillings");
-        var totalPay=document.getElementById("")
+        var pay=document.getElementById("totalprice").value;
+        var totalPay=parseInt(pay)+200;
+        alert("Total amount payable is "+ totalPay);
     });
 
-    $("#button2").click(function () {
+    $("#button22").click(function () {
         alert("your delivery price is 200 shillings");
 
     });
