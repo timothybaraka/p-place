@@ -3,6 +3,9 @@
     background:black;
     padding-bottom: 20px;
 }
+#gif{
+    float:left;
+}
 .choosepizza1{
     text-align: center;
     /* background-image:url("../img/pizza5.jpg") ; */
