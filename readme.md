@@ -1,6 +1,6 @@
 # P-PLACE
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+## Updated version 15/12/2019
+#### By Timothy Baraka
 ## Description
 This is a website for a pizza company(P-PLACE).Here you can order your pizza according to your own specifications and your can even choose whether it is delivered to you or not.
 ## Setup/Installation Requirements
