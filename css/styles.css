@@ -6,6 +6,10 @@
 #gif{
     float:left;
 }
+#giphy{
+    float:left;
+    margin-top:5px;
+}
 .choosepizza1{
     text-align: center;
     /* background-image:url("../img/pizza5.jpg") ; */
@@ -59,5 +63,6 @@
     padding-bottom:50px;
 }
 .contact{
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 550px;
 }
