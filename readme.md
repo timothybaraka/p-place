@@ -3,6 +3,9 @@
 #### By Timothy Baraka
 ## Description
 This is a website for a pizza company(P-PLACE).Here you can order your pizza according to your own specifications and your can even choose whether it is delivered to you or not.
+## Link to live site
+https://timothybaraka.github.io/p-place.github.io/
+
 ## Setup/Installation Requirements
 * Open the webpage.
 * Choose the size of pizza you want.
